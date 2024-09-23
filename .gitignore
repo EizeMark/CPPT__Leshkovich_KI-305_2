@@ -8,7 +8,6 @@
 *.ctxt
 *.doc
 *.docx
-*.txt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
