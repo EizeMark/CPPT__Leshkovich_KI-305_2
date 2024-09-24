@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"KI305_Leshkovych_Lab2","l":"Remote"},{"p":"KI305_Leshkovych_Lab2","l":"Screen"},{"p":"KI305_Leshkovych_Lab2","l":"Speaker"},{"p":"KI305_Leshkovych_Lab2","l":"VideoPlayer"},{"p":"KI305_Leshkovych_Lab2","l":"VideoPlayerTest"}]
