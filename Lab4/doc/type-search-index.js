@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"KI305_Leshkovych_Lab4","l":"ExpressionCalculator"},{"p":"KI305_Leshkovych_Lab4","l":"Main"}]
