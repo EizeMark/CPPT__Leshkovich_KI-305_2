@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"KI305.Leshkovych.Lab5","l":"ExpressionCalculator"},{"p":"KI305.Leshkovych.Lab5","l":"FileHandler"},{"p":"KI305.Leshkovych.Lab5","l":"Main"}]
