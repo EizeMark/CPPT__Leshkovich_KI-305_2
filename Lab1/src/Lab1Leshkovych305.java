@@ -44,6 +44,7 @@ public class Lab1Leshkovych305 {
             }
         }
 
+        // Виводимо масив на екран
         for (int i = 0; i < n; i++) {
             if (i == 0 || i == n - 1) {
                 for (char ch : jaggedArray[i]) {

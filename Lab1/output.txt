@@ -1,4 +1,5 @@
-f f f f 
-f     f 
-f     f 
-f f f f 
+q q q q q 
+q       q 
+q       q 
+q       q 
+q q q q q 
