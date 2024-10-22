@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"KI305.Leshkovych.Lab6","l":"Basket"},{"p":"KI305.Leshkovych.Lab6","l":"BasketDriver"},{"p":"KI305.Leshkovych.Lab6","l":"Fruit"},{"p":"KI305.Leshkovych.Lab6","l":"Product"}]
