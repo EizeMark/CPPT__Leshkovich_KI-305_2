@@ -1,7 +1,14 @@
-def generate_jagged_array(n, fill_char): 
+def generate_jagged_array(n, fill_char):
     """
     Функція для створення зубчатого масиву з квадратної матриці,
     де зберігаються лише заштриховані області.
+    
+    Параметри:
+        n (int): Розмір квадратної матриці.
+        fill_char (str): Символ-заповнювач для заштрихованих областей.
+    
+    Повертає:
+        list: Зубчатий масив з потрібним заповненням.
     """
     jagged_array = []
 
@@ -19,6 +26,9 @@ def generate_jagged_array(n, fill_char):
 def print_jagged_array(jagged_array):
     """
     Функція для виведення зубчатого масиву на екран.
+    
+    Параметри:
+        jagged_array (list): Зубчатий масив для виведення.
     """
     n = len(jagged_array)
     for i, row in enumerate(jagged_array):
@@ -26,34 +36,3 @@ def print_jagged_array(jagged_array):
             print(" ".join(row))
         else:
             print(row[0] + " " + "  " * (n - 2) + row[1])
-
-def main():
-    """
-    Основна функція для запуску програми.
-    """
-    try:
-        # Введення розміру матриці
-        n = int(input("Введіть розмір квадратної матриці (n >= 4): "))
-        if n < 4:
-            print("Помилка: розмір матриці повинен бути не меншим за 4.")
-            return
-        
-        # Введення символу заповнювача
-        fill_char = input("Введіть символ-заповнювач: ")
-        if len(fill_char) != 1:
-            print("Помилка: необхідно ввести лише один символ.")
-            return
-        
-        # Генерація зубчатого масиву
-        jagged_array = generate_jagged_array(n, fill_char)
-        
-        # Виведення масиву на екран
-        print("Сформований зубчатий масив:")
-        print_jagged_array(jagged_array)
-
-    except ValueError:
-        print("Помилка: введіть ціле число для розміру матриці!")
-
-# Запуск програми
-if __name__ == "__main__":
-    main()
