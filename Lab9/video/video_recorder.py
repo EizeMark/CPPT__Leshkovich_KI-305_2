@@ -3,28 +3,28 @@
 from .video_player import VideoPlayer
 
 class VideoRecorder(VideoPlayer):
-    """Производный класс для записи видео, наследуется от VideoPlayer."""
+    """Похідний клас для запису відео, успадковується від VideoPlayer."""
     
     def __init__(self, video_name):
         """
-        Инициализация видеомагнитофона с именем видео.
-        :param video_name: Название видео файла
+        Ініціалізація відеомагнітофона з назвою відео.
+        :param video_name: Назва відеофайлу
         """
         super().__init__(video_name)
         self.is_recording = False
 
     def record(self):
-        """Метод для начала записи видео."""
+        """Метод для початку запису відео."""
         if not self.is_playing:
-            print(f"Начало записи видео: {self.video_name}")
+            print(f"Початок запису відео: {self.video_name}")
             self.is_recording = True
         else:
-            print("Невозможно начать запись во время воспроизведения.")
+            print("Неможливо почати запис під час відтворення.")
 
     def stop_recording(self):
-        """Метод для остановки записи видео."""
+        """Метод для зупинки запису відео."""
         if self.is_recording:
-            print(f"Запись остановлена: {self.video_name}")
+            print(f"Запис зупинено: {self.video_name}")
             self.is_recording = False
         else:
-            print("Запись не активна.")
+            print("Запис не активний.")

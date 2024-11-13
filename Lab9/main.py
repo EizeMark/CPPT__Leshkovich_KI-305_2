@@ -4,21 +4,21 @@ from video.video_player import VideoPlayer
 from video.video_recorder import VideoRecorder
 
 def main():
-    """Точка входа в программу."""
+    """Точка входу в програму."""
     
-    # Создаем объект VideoPlayer и демонстрируем его функции
+    # Створюємо об'єкт VideoPlayer і демонструємо його функції
     player = VideoPlayer("example_video.mp4")
     player.play()
     player.stop()
 
-    # Создаем объект VideoRecorder и демонстрируем его функции
+    # Створюємо об'єкт VideoRecorder і демонструємо його функції
     recorder = VideoRecorder("example_video.mp4")
     recorder.record()
     recorder.stop_recording()
     recorder.play()
-    recorder.record()  # Попытка начать запись во время воспроизведения
+    recorder.record()  # Спроба почати запис під час відтворення
     recorder.stop()
-    recorder.record()  # Начать запись после остановки воспроизведения
+    recorder.record()  # Почати запис після зупинки відтворення
     recorder.stop_recording()
 
 if __name__ == "__main__":

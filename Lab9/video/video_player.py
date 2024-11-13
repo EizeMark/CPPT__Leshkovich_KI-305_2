@@ -1,22 +1,22 @@
 # video/video_player.py
 
 class VideoPlayer:
-    """Базовый класс для воспроизведения видео."""
+    """Базовий клас для відтворення відео."""
     
     def __init__(self, video_name):
         """
-        Инициализация видео плеера с именем видео.
-        :param video_name: Название видео файла
+        Ініціалізація відеоплеєра з назвою відео.
+        :param video_name: Назва відеофайлу
         """
         self.video_name = video_name
         self.is_playing = False
 
     def play(self):
-        """Метод для начала воспроизведения видео."""
+        """Метод для початку відтворення відео."""
         self.is_playing = True
-        print(f"Воспроизведение видео: {self.video_name}")
+        print(f"Відтворення відео: {self.video_name}")
 
     def stop(self):
-        """Метод для остановки воспроизведения видео."""
+        """Метод для зупинки відтворення відео."""
         self.is_playing = False
-        print(f"Воспроизведение остановлено: {self.video_name}")
+        print(f"Відтворення зупинено: {self.video_name}")
